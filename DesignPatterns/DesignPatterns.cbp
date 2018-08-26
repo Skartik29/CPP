@@ -32,6 +32,10 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="AbstractFactoryPattern.cpp" />
+		<Unit filename="AbstractFactoryPattern.h" />
+		<Unit filename="FactoryPattern.cpp" />
+		<Unit filename="FactoryPattern.h" />
 		<Unit filename="SingletonPattern.cpp" />
 		<Unit filename="SingletonPattern.h" />
 		<Unit filename="main.cpp" />
