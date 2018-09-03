@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1535924304 source:d:\study\cpp\datastructures\main.cpp
+	<iostream>
+	"LinkedLists.h"
+	"Stack.h"
+	"Queue.h"
+
+1535926020 d:\study\cpp\datastructures\linkedlists.h
+	<iostream>
+
+1535926033 source:d:\study\cpp\datastructures\linkedlists.cpp
+	"LinkedLists.h"
+
+1535921294 source:d:\study\cpp\datastructures\stack.cpp
+	"Stack.h"
+
+1535921334 d:\study\cpp\datastructures\stack.h
+	<iostream>
+
+1535924987 source:d:\study\cpp\datastructures\queue.cpp
+	"Queue.h"
+
+1535923358 d:\study\cpp\datastructures\queue.h
+	<iostream>
+
