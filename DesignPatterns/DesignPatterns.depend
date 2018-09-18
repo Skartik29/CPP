@@ -1,11 +1,25 @@
 # depslib dependency file v1.0
-1534999443 source:d:\study\cpp\designpatterns\main.cpp
+1535176264 source:d:\study\cpp\designpatterns\main.cpp
 	<iostream>
 	"SingletonPattern.h"
+	"FactoryPattern.h"
+	"AbstractFactoryPattern.h"
 
 1534999720 d:\study\cpp\designpatterns\singletonpattern.h
 	<iostream>
 
 1534999345 source:d:\study\cpp\designpatterns\singletonpattern.cpp
 	"SingletonPattern.h"
+
+1535172409 d:\study\cpp\designpatterns\factorypattern.h
+	<iostream>
+
+1535176601 source:d:\study\cpp\designpatterns\factorypattern.cpp
+	"FactoryPattern.h"
+
+1535177287 d:\study\cpp\designpatterns\abstractfactorypattern.h
+	"iostream"
+
+1535177404 source:d:\study\cpp\designpatterns\abstractfactorypattern.cpp
+	"AbstractFactoryPattern.h"
 
