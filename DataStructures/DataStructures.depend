@@ -1,9 +1,12 @@
 # depslib dependency file v1.0
-1535924304 source:d:\study\cpp\datastructures\main.cpp
+1537421290 source:d:\study\cpp\datastructures\main.cpp
 	<iostream>
 	"LinkedLists.h"
 	"Stack.h"
 	"Queue.h"
+	"BinarySearchTree.h"
+	"Matrix.h"
+	"Graphs.h"
 
 1535926020 d:\study\cpp\datastructures\linkedlists.h
 	<iostream>
@@ -22,4 +25,26 @@
 
 1535923358 d:\study\cpp\datastructures\queue.h
 	<iostream>
+
+1537674017 d:\study\cpp\datastructures\binarysearchtree.h
+	<iostream>
+
+1537674112 source:d:\study\cpp\datastructures\binarysearchtree.cpp
+	"BinarySearchTree.h"
+	<stack>
+	<queue>
+
+1537504553 d:\study\cpp\datastructures\matrix.h
+	<vector>
+	<iostream>
+
+1537678727 d:\study\cpp\datastructures\graphs.h
+	"Matrix.h"
+	<forward_list>
+	<vector>
+	<iostream>
+
+1537504922 source:d:\study\cpp\datastructures\graphs.cpp
+	"Graphs.h"
+	<algorithm>
 

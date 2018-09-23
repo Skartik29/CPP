@@ -2,6 +2,9 @@
 #include "LinkedLists.h"
 #include "Stack.h"
 #include "Queue.h"
+#include "BinarySearchTree.h"
+#include "Matrix.h"
+#include "Graphs.h"
 
 using namespace std;
 
