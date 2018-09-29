@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1538184690 source:d:\study\cpp\algorithms\main.cpp
+	"SortingAlgorithms.h"
+	"SearchingAlgorithms.h"
+
+1538185815 source:d:\study\cpp\algorithms\sortingalgorithms.cpp
+	"SortingAlgorithms.h"
+
+1538183890 d:\study\cpp\algorithms\sortingalgorithms.h
+	<iostream>
+	<vector>
+
+1538186126 d:\study\cpp\algorithms\searchingalgorithms.h
+	<vector>
+	<iostream>
+
+1537833630 source:d:\study\cpp\algorithms\searchingalgorithms.cpp
+	"SearchingAlgorithms.h"
+
