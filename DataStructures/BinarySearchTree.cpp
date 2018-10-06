@@ -172,10 +172,12 @@ void BST::LevelOrderDiffLines(Node* r)
         if (ct == 0) break;
         while (ct > 0)
         {
-            Node* t = q.front(); q.pop();
+            Node* t = q.front();
             std::cout<<t->GetData()<<" ";
+            q.pop();
             if (t->GetLeft()) q.push(t->GetLeft());
             if (t->GetRight()) q.push(t->GetRight());
+            ct--;
         }
         std::cout<<std::endl;
     }
