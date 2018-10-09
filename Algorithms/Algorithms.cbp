@@ -2,12 +2,12 @@
 <CodeBlocks_project_file>
 	<FileVersion major="1" minor="6" />
 	<Project>
-		<Option title="DesignPatterns" />
+		<Option title="Algorithms" />
 		<Option pch_mode="2" />
 		<Option compiler="gcc" />
 		<Build>
 			<Target title="Debug">
-				<Option output="bin/Debug/DesignPatterns" prefix_auto="1" extension_auto="1" />
+				<Option output="bin/Debug/Algorithms" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Debug/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
@@ -16,7 +16,7 @@
 				</Compiler>
 			</Target>
 			<Target title="Release">
-				<Option output="bin/Release/DesignPatterns" prefix_auto="1" extension_auto="1" />
+				<Option output="bin/Release/Algorithms" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Release/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
@@ -32,12 +32,10 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
-		<Unit filename="AbstractFactoryPattern.cpp" />
-		<Unit filename="AbstractFactoryPattern.h" />
-		<Unit filename="FactoryPattern.cpp" />
-		<Unit filename="FactoryPattern.h" />
-		<Unit filename="SingletonPattern.cpp" />
-		<Unit filename="SingletonPattern.h" />
+		<Unit filename="SearchingAlgorithms.cpp" />
+		<Unit filename="SearchingAlgorithms.h" />
+		<Unit filename="SortingAlgorithms.cpp" />
+		<Unit filename="SortingAlgorithms.h" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<code_completion />
