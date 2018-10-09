@@ -14,21 +14,26 @@ int main()
 {
     /** Testing linked list
     List *lst = new List();
-    lst->PrintList();
+    //lst->PrintList();
     lst->SAddNode(10);
     lst->SAddNode(11);
     lst->SAddNode(12);
-    lst->PrintList();
+    lst->SAddNode(6);
+    lst->SAddNode(14);
+    //lst->PrintList();
     lst->DAddNode(13);
     lst->DAddNode(14);
     lst->DAddNode(15);
-    lst->PrintList();
+    //lst->PrintList();
     SinglyLL* sl = lst->SIsPresent(12);
     DoublyLL* dl = lst->DIsPresent(15);
+    //lst->PrintList();
+    //lst->SDelNode(sl);
+    //lst->DDelNode(dl);
     lst->PrintList();
-    lst->SDelNode(sl);
-    lst->DDelNode(dl);
+    lst->ReverseSll();
     lst->PrintList();
+    std::cout<<lst->DetectLoopSll()<<std::endl;
     delete lst; **/
     /** Testing stack
     Stck *s = new Stck();
@@ -71,14 +76,32 @@ int main()
         graph->AddEdge(i, i+1);
     graph->RemoveEdge(0,1);
     graph->DFS(1); **/
-
+    /**  Array puzzles
     ArrayPuzzles* ap = new ArrayPuzzles();
-    ap->PrintArray();
-    ap->ClockwiseRotation(3);
-    ap->PrintArray();
-    ap->AnticlockwiseRotation(9);
-    ap->PrintArray();
-    delete ap;
+    ap->Print2DArray();
+    //ap->ClockwiseRotation(3);
+    //ap->PrintArray();
+    //ap->AnticlockwiseRotation(3);
+    //ap->PrintArray();
+    ap->Rotate90DegreeClockwise();
+    std::cout<<std::endl;
+    ap->Print2DArray();
+    delete ap; **/
+    /**  Testing stacks and queues using two other ones
+    QueueUsingStacks *qus = new QueueUsingStacks();
+    qus->Enqueue(1);
+    qus->Enqueue(2);
+    qus->Enqueue(3);
+    for (int i = 0; i < 4; ++i)
+        std::cout<<qus->Dequeue()<<" ";
+    delete qus;
+    StackUsingQueues *suq = new StackUsingQueues();
+    suq->Push(1);
+    suq->Push(2);
+    suq->Push(3);
+    for (int i = 0; i < 4; ++i)
+        std::cout<<suq->Pop()<<" ";
+    delete suq; **/
 
     return 0;
 }

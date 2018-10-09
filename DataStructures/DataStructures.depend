@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1538791704 source:d:\study\cpp\datastructures\main.cpp
+1538869877 source:d:\study\cpp\datastructures\main.cpp
 	<iostream>
 	"LinkedLists.h"
 	"Stack.h"
@@ -10,10 +10,10 @@
 	"Puzzles.h"
 	<climits>
 
-1535926020 d:\study\cpp\datastructures\linkedlists.h
+1538869130 d:\study\cpp\datastructures\linkedlists.h
 	<iostream>
 
-1535926033 source:d:\study\cpp\datastructures\linkedlists.cpp
+1538869187 source:d:\study\cpp\datastructures\linkedlists.cpp
 	"LinkedLists.h"
 
 1535921294 source:d:\study\cpp\datastructures\stack.cpp
@@ -51,9 +51,13 @@
 	<algorithm>
 	<queue>
 
-1538791291 d:\study\cpp\datastructures\puzzles.h
+1539071499 d:\study\cpp\datastructures\puzzles.h
 	<iostream>
+	<stack>
+	<queue>
+	"Stack.h"
+	"Queue.h"
 
-1538791851 source:d:\study\cpp\datastructures\puzzles.cpp
+1539072614 source:d:\study\cpp\datastructures\puzzles.cpp
 	"Puzzles.h"
 
