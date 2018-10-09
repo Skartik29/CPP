@@ -41,6 +41,8 @@ class List
 private:
     SinglyLL* sll;
     DoublyLL* dll;
+    void AdvanceSp(SinglyLL*& sp);
+    void AdvanceFp(SinglyLL*& fp);
 public:
     List();
     List(const List& ptr);
@@ -59,6 +61,10 @@ public:
     DoublyLL* DIsPresent(int data);
     //Print
     void PrintList();
+    //Reverse
+    void ReverseSll();
+    //Detect loop
+    bool DetectLoopSll();
 };
 
 

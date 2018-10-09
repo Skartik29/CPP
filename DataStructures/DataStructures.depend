@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1537421290 source:d:\study\cpp\datastructures\main.cpp
+1538869877 source:d:\study\cpp\datastructures\main.cpp
 	<iostream>
 	"LinkedLists.h"
 	"Stack.h"
@@ -7,11 +7,13 @@
 	"BinarySearchTree.h"
 	"Matrix.h"
 	"Graphs.h"
+	"Puzzles.h"
+	<climits>
 
-1535926020 d:\study\cpp\datastructures\linkedlists.h
+1538869130 d:\study\cpp\datastructures\linkedlists.h
 	<iostream>
 
-1535926033 source:d:\study\cpp\datastructures\linkedlists.cpp
+1538869187 source:d:\study\cpp\datastructures\linkedlists.cpp
 	"LinkedLists.h"
 
 1535921294 source:d:\study\cpp\datastructures\stack.cpp
@@ -29,7 +31,7 @@
 1537674017 d:\study\cpp\datastructures\binarysearchtree.h
 	<iostream>
 
-1537674112 source:d:\study\cpp\datastructures\binarysearchtree.cpp
+1537827107 source:d:\study\cpp\datastructures\binarysearchtree.cpp
 	"BinarySearchTree.h"
 	<stack>
 	<queue>
@@ -44,7 +46,18 @@
 	<vector>
 	<iostream>
 
-1537504922 source:d:\study\cpp\datastructures\graphs.cpp
+1537678945 source:d:\study\cpp\datastructures\graphs.cpp
 	"Graphs.h"
 	<algorithm>
+	<queue>
+
+1539071499 d:\study\cpp\datastructures\puzzles.h
+	<iostream>
+	<stack>
+	<queue>
+	"Stack.h"
+	"Queue.h"
+
+1539072614 source:d:\study\cpp\datastructures\puzzles.cpp
+	"Puzzles.h"
 
