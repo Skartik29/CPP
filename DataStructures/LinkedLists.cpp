@@ -186,8 +186,59 @@ void List::PrintList()
     DoublyLL* d = dll;
     while (d)
     {
-        std::cout<<d->GetData()<<" ";
+        //std::cout<<d->GetData()<<" ";
         d = d->GetRight();
     }
-    std::cout<<std::endl;
+    //std::cout<<std::endl;
+}
+void List::ReverseSll()
+{
+    if (!sll) return;
+    SinglyLL* s = sll;
+    SinglyLL* n = sll->GetNext();
+    s->SetNext(NULL);
+    while (s)
+    {
+        if (n)
+        {
+            SinglyLL* nn = n->GetNext();
+            n->SetNext(s);
+            s = n;
+            if (!nn)
+                sll = n;
+            n = nn;
+        }
+        else
+        {
+            break;
+        }
+    }
+}
+void List::AdvanceSp(SinglyLL*& sp)
+{
+    sp = sp->GetNext();
+}
+void List::AdvanceFp(SinglyLL*& fp)
+{
+    fp = fp->GetNext();
+    if (fp) fp = fp->GetNext();
+}
+bool List::DetectLoopSll()
+{
+    SinglyLL* sp = sll;
+    SinglyLL* fp = sll;
+    if (!sll) return false;
+    do
+    {
+        if (sp)
+        {
+            AdvanceSp(sp);
+        }
+        if (fp)
+        {
+            AdvanceFp(fp);
+        }
+        if (!sp || !fp) return false;
+    } while (sp != fp);
+    return true;
 }

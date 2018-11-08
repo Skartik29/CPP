@@ -40,6 +40,8 @@
 		<Unit filename="LinkedLists.cpp" />
 		<Unit filename="LinkedLists.h" />
 		<Unit filename="Matrix.h" />
+		<Unit filename="Puzzles.cpp" />
+		<Unit filename="Puzzles.h" />
 		<Unit filename="Queue.cpp" />
 		<Unit filename="Queue.h" />
 		<Unit filename="Stack.cpp" />
